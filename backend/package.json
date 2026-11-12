@@ -1,0 +1,16 @@
+{
+  "name": "cmds-portaldir-backend",
+  "version": "1.0.0",
+  "description": "Backend Portal Director y Evaluación Encuestas (ADM_PORTALDIR + ADMETA) - PostgreSQL 18.6",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup-db": "node setupPortalDirPostgres.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.0.1",
+    "pg": "^8.13.3"
+  }
+}
